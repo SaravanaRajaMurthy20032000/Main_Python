@@ -8,5 +8,5 @@ for i in list1:
     else:
         res[new].append(i)
 print(res.values())
-# for i in res.values():
-#     print(i)
+for i in res.values():
+    print(i)
