@@ -17,20 +17,4 @@
 # res = n[::-1]
 # print(res)
 
-""" 2.Write a program in Python to check given number is prime or not. """
-def is_prime(num):
-    if num < 1:
-        return False
-    rt = int(num ** .5)
-    for i in range(2,rt+1):
-        if num % i == 0:
-            return False
-    return True
-
-numb = int(input("enter the num: "))
-if is_prime(numb):
-    print("number is prime", numb)
-else:
-    print("number is not a prime", numb)
-
-""" 3. """
+""" 2. """
