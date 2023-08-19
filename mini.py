@@ -2,14 +2,26 @@
 # num = input("enter the number: ")
 # res = num[::-1]
 # print(res)
+
 # res1 = reversed(num)
 # res1 = ''.join(res)
 # print(res1)
+
 # """now with function"""
 # def num(rev):
 #     return rev[::-1]
 # number = input("enter the number: ")
 # print(num(number))
+
+# def rever(s):
+#     str = ""
+#     for i in s:
+#         str = i + str
+#     return str
+
+# res = input("enter the value: ")
+# print(rever(res))
+
 """ 2. Write a program in Python to check given number is prime or not. """
 # def is_prime(num):
 #     if num <= 1:
@@ -119,14 +131,14 @@
 # ar2 = input("enter the number2: ")
 # print(arr(ar1,ar2))
 """ 12. Write a program in Python to find largest and smallest number in array. """
-def sml_lgt(lgr,sml):
-    if lgr > sml:
-        return True
-    if sml > lgr:
-        return True
-    else:
-        return False
+# def sml_lgt(lgr,sml):
+#     if lgr > sml:
+#         return True
+#     if sml > lgr:
+#         return True
+#     else:
+#         return False
 
-lgr = input("enter the lagest num: ")
-sml = input("enter the smallest num2: ")
-print(sml_lgt(lgr,sml))
+# lgr = input("enter the lagest num: ")
+# sml = input("enter the smallest num2: ")
+# print(sml_lgt(lgr,sml))
