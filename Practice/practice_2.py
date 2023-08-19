@@ -127,7 +127,23 @@
 # print(bool(s2)) # Output: True
 
 # string = input("enter the name to Split/Join: ")
-# res = string.split('')
-# res = ','.join(string)
+# res = string.split()
+# res1 = ''.join(string)
 # print(res)
+# print(res1)
 
+# asc = 65
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         res = chr(asc)
+#         print(res,end=" ")
+#     asc+=1
+#     print()
+
+"""RECURSION"""
+def factorial(n):
+    if n == 1:
+        return 1
+    return n * factorial(n-1)
+
+print(factorial(7))
