@@ -93,9 +93,9 @@
 # for i in range(4,2, -1):
 #     print(i)
 
-for i in range(4):
-    for j in range(2):
-        print(i,"*",j, "=", i * j)
+# for i in range(4):
+#     for j in range(2):
+#         print(i,"*",j, "=", i * j)
 
 # a = 122334
 # print(str(a))
