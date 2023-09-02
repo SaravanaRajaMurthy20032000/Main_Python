@@ -1,0 +1,6 @@
+{
+    "principal": "Ram kumar",
+    "teachers": ["Kumar","Ram"],
+    "students": ["Raja","Gowtham","Kavitha","Murthi"],
+    "address": ["Erode", "Chennai"]
+}
