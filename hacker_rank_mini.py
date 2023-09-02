@@ -20,4 +20,19 @@ Please use list comprehensions rather than multiple loops, as a learning exercis
 # n = int(input())
 # res = [[i,j,k]for i in range(x+1)for j in range(y+1)for k in range(z+1)if i+j+k != n]
 # print(res)
-""" 3.  """
+""" 3. You are given a string and your task is to swap cases. In other words, convert all lowercase 
+letters to uppercase letters and vice versa. """
+def swap_case(input_str):
+    swapped_str = ""
+    for char in input_str:
+        if char.isupper():
+            swapped_str += char.lower()
+        elif char.islower():
+            swapped_str += char.upper()
+        else:
+            swapped_str += char
+    return swapped_str
+
+input_str = input("Enter a string: ")
+result = swap_case(input_str)
+print("Swapped string:", result)
