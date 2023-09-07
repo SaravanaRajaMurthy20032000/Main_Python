@@ -12,9 +12,9 @@ def check(d):
         return jsonfile[d]
     elif len(get_close_matches(d,jsonfile.keys())) > 0:
         choice =  input("Did you mean %s, Enter Y for YES, N for NO: " %get_close_matches(d,jsonfile.keys())[0])
-        if choice == "Y" or "y":
+        if choice == "YES":
             return jsonfile[get_close_matches(d,jsonfile.keys())[0]]
-        elif choice == "N" or "n":
+        elif choice =="NO":
             return "This word is not exist, please give valid word!"
         else:
             return "It's a wrong choice, try again"    
