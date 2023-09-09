@@ -10,10 +10,10 @@
 # s = "Hello World! 123$"
 # print(s.upper())
 
-# s = int("1235")
-# print(s) # output is "VALUEERROR"
+s = int("1235")
+print(s)
 
-# # indexing and slicing
+# indexing and slicing
 
 # s = "Hello world!"
 # print(s[1:9:2]) # output is "el o"
@@ -154,14 +154,14 @@ print("-------------------------------")
 # import calendar
 # print(calendar.isleap(2021))
 
-def func(num):
-    for i in range(2,num):
-        if num % i == 0:
-            return False
-    return True
+# def func(num):
+#     for i in range(2,num):
+#         if num % i == 0:
+#             return False
+#     return True
 
-number = int(input("enter the num: "))
-if func(number):
-    print("this is prime",number)
-else:
-    print("this is not prime number",number)
+# number = int(input("enter the num: "))
+# if func(number):
+#     print("this is prime",number)
+# else:
+#     print("this is not prime number",number)

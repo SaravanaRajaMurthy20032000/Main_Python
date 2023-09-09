@@ -4,7 +4,7 @@
 # print(res)
 
 # res1 = reversed(num)
-# res1 = ''.join(res)
+# res1 = ''.join(res1)
 # print(res1)
 
 # """now with function"""
