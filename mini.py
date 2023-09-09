@@ -142,3 +142,25 @@
 # lgr = input("enter the lagest num: ")
 # sml = input("enter the smallest num2: ")
 # print(sml_lgt(lgr,sml))
+""" 13.Merge two sorted Arrays/Lists """
+# def merge_two_list(one,one_2):
+#     res = one + one_2
+#     result = sorted(res)
+#     return result
+
+# num1 = [1,5,2,4]
+# num2 = [9,7,8,0]
+# print(merge_two_list(num1,num2))
+""" 14.given an array of integers from 1 to n, with one number missing, 
+write a function to find the missing number. for example, if the input array is [1,2,3,5], 
+the function should return 3 in python """
+# def find_missing_number(nums):
+#     n = len(nums) + 1  # n is the expected length of the array
+#     expected_sum = (n * (n + 1)) // 2
+#     actual_sum = sum(nums)
+#     missing_number = expected_sum - actual_sum
+#     return missing_number
+
+# input_array = [1, 2, 3, 5]
+# missing_number = find_missing_number(input_array)
+# print("Missing number:", missing_number)
