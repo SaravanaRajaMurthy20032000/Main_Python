@@ -164,3 +164,26 @@ the function should return 3 in python """
 # input_array = [1, 2, 3, 5]
 # missing_number = find_missing_number(input_array)
 # print("Missing number:", missing_number)
+
+# def miss_num(nums):
+#     nums.sort()
+#     for i in range(nums[0],nums[-1]+1):
+#         if i not in nums:
+#             return i 
+        
+# number = [1,2,4,7,3,9]
+# print(miss_num(number))
+
+# s = lambda x: x.sort()
+# n = [3,5,1,2]
+# s(n)
+# print(n)
+
+def func(num):
+    cnt = 0
+    for i in range(1,num+1):
+        if i%3==0 or i % 5 == 0:
+            cnt += 1
+    return cnt
+
+print(func(6))
