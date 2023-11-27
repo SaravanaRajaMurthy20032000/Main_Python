@@ -10,8 +10,8 @@
 # s = "Hello World! 123$"
 # print(s.upper())
 
-s = int("1235")
-print(s)
+# s = int("1235")
+# print(s)
 
 # indexing and slicing
 
@@ -165,3 +165,6 @@ print("-------------------------------")
 #     print("this is prime",number)
 # else:
 #     print("this is not prime number",number)
+
+ls = [i for i in range(10) if i>5]
+print(ls)
