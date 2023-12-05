@@ -165,6 +165,3 @@ print("-------------------------------")
 #     print("this is prime",number)
 # else:
 #     print("this is not prime number",number)
-
-ls = [i for i in range(10) if i>5]
-print(ls)
