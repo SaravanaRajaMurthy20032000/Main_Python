@@ -180,18 +180,9 @@ the function should return 3 in python """
 # print(n)
 
 """ 15. Multiply two integers without using multiplication operator. """
-num1 = int(input("Enter a number for num1: "))
-num2 = int(input("Enter a number for num2: "))
-product = 0
-for i in range(1,num2+1):
-    product = product + num1
-print("Multiplication of numbers:",product)
-
-# def func(num):
-#     cnt = 0
-#     for i in range(1,num+1):
-#         if i%3==0 or i % 5 == 0:
-#             cnt += 1
-#     return cnt
-
-# print(func(6))
+# num1 = int(input("Enter a number for num1: "))
+# num2 = int(input("Enter a number for num2: "))
+# product = 0
+# for i in range(1,num2+1):
+#     product = product + num1
+# print("Multiplication of numbers:",product)
