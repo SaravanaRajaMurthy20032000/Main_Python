@@ -186,3 +186,25 @@ the function should return 3 in python """
 # for i in range(1,num2+1):
 #     product = product + num1
 # print("Multiplication of numbers:",product)
+
+"""16. How can you replace string space with a given character in Python?"""
+# this is saravana answer
+def str_replace(sent):
+    rs = sent.replace(' ','o')
+    return rs
+
+res = input("enter the content: ")
+print(str_replace(res))
+# this is website answer 
+def str_replace(text,ch):
+    result = ''
+    for i in text: 
+            if i == ' ': 
+                i = ch  
+            result += i 
+    return result
+
+text = "D t C mpBl ckFrid yS le"
+ch = "a"
+print(str_replace(text,ch))
+# 'DataCampBlackFridaySale'
