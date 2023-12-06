@@ -189,22 +189,57 @@ the function should return 3 in python """
 
 """16. How can you replace string space with a given character in Python?"""
 # this is saravana answer
-def str_replace(sent):
-    rs = sent.replace(' ','o')
-    return rs
+# def str_replace(sent):
+#     rs = sent.replace(' ','o')
+#     return rs
 
-res = input("enter the content: ")
-print(str_replace(res))
-# this is website answer 
-def str_replace(text,ch):
-    result = ''
-    for i in text: 
-            if i == ' ': 
-                i = ch  
-            result += i 
-    return result
+# res = input("enter the content: ")
+# print(str_replace(res))
+# # this is website answer 
+# def str_replace(text,ch):
+#     result = ''
+#     for i in text: 
+#             if i == ' ': 
+#                 i = ch  
+#             result += i 
+#     return result
 
-text = "D t C mpBl ckFrid yS le"
-ch = "a"
-print(str_replace(text,ch))
+# text = "D t C mpBl ckFrid yS le"
+# ch = "a"
+# print(str_replace(text,ch))
 # 'DataCampBlackFridaySale'
+
+"""17. Given a positive integer num, write a function that returns True if num is a perfect square else False."""
+# def ret_prft(num):
+#     squr = int(num**.5)
+#     check = squr**2 == num
+#     return check
+
+# print(ret_prft(10),ret_prft(36))
+
+"""18. Find the missing number in the array""" # This is Amazon interview question
+# def miss_num(list_num):
+#     sum_numbers = sum(list_num)
+#     n = len(list_num) + 1
+#     op_numbers = (n * (n+1))/ 2
+#     return int(op_numbers - sum_numbers)
+
+# num = [1,7,3,2,5,6]
+# print(miss_num(num))
+
+"""19. We can write conditional expressions in a single line instead of writing using multiple
+lines of if-else statements. It allows you to write clean and compact code.""" # #this is called ternary operator
+# score = 70
+# print('Fail' if score < 50 else 'Merit' if score <= 70 else 'Distinction') 
+
+"""20. Summation of all numbers from 1 to 101"""
+# print(sum(range(1,101)))
+
+"""21. Is it possible to construct a Python program that calculates the mean of numbers in a list?"""
+# n = int(input("enter the no.of.elements: "))
+# l = []
+# for i in range(1,n+1):
+#     element = int(input("enter the number: "))
+#     l.append(element)
+# average_num = sum(l)/2
+# print(round(average_num))
