@@ -243,3 +243,19 @@ lines of if-else statements. It allows you to write clean and compact code.""" #
 #     l.append(element)
 # average_num = sum(l)/2
 # print(round(average_num))
+"""CRUD program in python without MYSQL"""
+# CREATE
+# file = open('example.txt', 'w')
+# file.write('this is just an example line')
+# file.close()
+# # READ
+# file1 = open('example.txt', 'r')
+# res = file1.read()
+# print(res)
+# file1.close()
+# UPDATE
+"""FOR UPDATE SAME WRITE IS USED"""
+# DELETE
+# import os
+# os.remove('example.txt')
+""" """
