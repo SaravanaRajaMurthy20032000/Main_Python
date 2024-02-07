@@ -258,4 +258,11 @@ lines of if-else statements. It allows you to write clean and compact code.""" #
 # DELETE
 # import os
 # os.remove('example.txt')
-""" """
+""" Common words"""
+# str_1 = "hai hello how are you"
+# str_2 = "hello im fine, how about you"
+
+# res_1 = set(str_1.split())
+# res_2 = set(str_2.split())
+# result = res_1 & res_2
+# print(result)
